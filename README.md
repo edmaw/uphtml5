@@ -5,3 +5,7 @@ via: https://github.com/cogdog/arganee/blob/master/header.php
 
 &: https://code.tutsplus.com/series/creating-a-wordpress-theme-from-static-html--wp-34294
 https://code.tutsplus.com/tutorials/creating-a-wordpress-theme-from-static-html-adding-widgets--wp-34046 etc
+
+
+https://gebnet.co.uk/railton/inglistan/annex/ambalavao.htm
+http://radio.garden/live/kaolack/radio-faydatidianiya/
