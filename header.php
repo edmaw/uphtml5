@@ -25,11 +25,14 @@ if ( $site_description && ( is_home() || is_front_page() ) )
 		<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/assets/css/ie9.css" /><![endif]-->
 
+
+
 </head>
 
 <?php wp_head(); ?>
 
-	<body>
+<body>
+
 			<nav id="nav">
 				<ul class="container">
 					<li>	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?></li>
@@ -37,7 +40,9 @@ if ( $site_description && ( is_home() || is_front_page() ) )
 			</nav>
 
 	<!-- Home -->
-			<div class="wrapper style1 first">
+
+			<div class="wrapper custom-background">
+
 				<article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
@@ -53,8 +58,7 @@ the_custom_logo();
 	<header role="banner" id="header">
 
 
-
-		<div class="site-name half left">
+		<div>
 			<!-- site name and description - site name is inside a div element on all pages execpt the front page and/or main blog page, where it is in a h1 element -->
 			<h1 id="site-title">
 				<a href="<?php echo home_url(); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
@@ -68,7 +72,6 @@ the_custom_logo();
 					</div>
 				</article>
 			</div>
-
 	<!-- .main -->
 
 	<div class="main">
